@@ -1,0 +1,11 @@
+﻿  Main.cpp
+G:\Repositories\Array\Array\Array\Main.cpp(4,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+G:\Repositories\Array\Array\Array\Array.h(84,8): warning C4244: инициализация: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+G:\Repositories\Array\Array\Array\Array.h(83,1): message : во время компиляции функции-члена класс шаблон "void Array<int>::printNumsByAVG(void) const"
+G:\Repositories\Array\Array\Array\Main.cpp(35,22): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Array<int>::printNumsByAVG(void) const"
+G:\Repositories\Array\Array\Array\Main.cpp(5,17): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Array<int>"
+  Array.vcxproj -> G:\Repositories\Array\Array\x64\Debug\Array.exe
